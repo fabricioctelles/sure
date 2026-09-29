@@ -96,7 +96,7 @@ pt-BR:
         entity_id: "ID da entidade"
         logo_url: "URL do logo"
         name: "Nome"
-        payee: "Recebedor"
+        payee: "Favorecido"
         payer: "Pagador"
         phone_number: "Telefone"
         ppd_id: "ID PPD"
