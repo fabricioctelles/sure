@@ -84,7 +84,26 @@ pt-BR:
       payee: Favorecido
       description: Descrição
       memo: Memorando
+      original_description: "Descrição original"
+      payment_channel: "Canal de pagamento"
+      transaction_code: "Código da transação"
       provider_extras: Dados extras do provedor
+      plaid_payment_meta_label: "Dados do pagamento · %{name}"
+      plaid_counterparty_label: "Contraparte %{index}"
+      provider_extra_fields:
+        by_order_of: "Por ordem de"
+        confidence_level: "Nível de confiança"
+        entity_id: "ID da entidade"
+        logo_url: "URL do logo"
+        name: "Nome"
+        payee: "Recebedor"
+        payer: "Pagador"
+        phone_number: "Telefone"
+        ppd_id: "ID PPD"
+        reason: "Motivo"
+        reference_number: "Número de referência"
+        type: "Tipo"
+        website: "Site"
       transfer_or_debt_payment: Transferência ou pagamento de dívida?
       open_matcher: Abrir vinculação
       convert: Converter

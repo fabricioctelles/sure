@@ -8,6 +8,7 @@ pt-BR:
         title: Notificações push
         requested_at: Último teste solicitado em %{time}
         result_help: O aceite pelo APNs não confirma a entrega no seu dispositivo. Atualize para ver os resultados do worker. Os resultados ficam guardados por 24 horas.
+        results_label: "Resultados do teste"
         device: Dispositivo %{number}
         pending: Pendente
         refresh: Atualizar resultados
@@ -81,6 +82,7 @@ pt-BR:
           run_checks: Executar verificações novamente
           last_checked: Verificações em tempo real concluídas há %{time_ago}. Os resultados ficam em cache por pouco tempo.
           not_checked_help: Abra diretamente a URL de status da IA ou execute as verificações para confirmar que o serviço está ativo.
+          loading: "Executando verificações em tempo real…"
           alerts:
             custom_openai:
               title: A verificação do vector store hospedado falhou neste endpoint personalizado

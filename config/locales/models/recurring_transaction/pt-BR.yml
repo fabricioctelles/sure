@@ -10,6 +10,7 @@ pt-BR:
     attributes:
       recurring_transaction:
         payment_url: Link de pagamento
+        frequency_interval: "Intervalo de repetição"
     errors:
       models:
         recurring_transaction:

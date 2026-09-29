@@ -76,6 +76,7 @@ pt-BR:
       pulse_next_seven: nos próximos 7 dias
       pulse_bar_aria: '%{percent}% das contas a pagar deste mês quitadas'
       next_up: A seguir
+      view_calendar: "Ver calendário"
       view_upcoming: Ver próximas
       date_today: Hoje
       date_tomorrow: Amanhã
