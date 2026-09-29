@@ -230,7 +230,7 @@ pt-BR:
             unsupported_provider: O provedor não suporta esta verificação
           worker:
             title: Verificação do worker
-            description: As verificações acima foram executadas a partir deste processo web. A maior parte do trabalho de IA -- respostas do assistente, processamento de PDF, embeddings, categorização automática e detecção de comerciantes -- é executada, na verdade, em um processo worker do Sidekiq, que pode ter acesso de rede, DNS, regras de proxy ou até credenciais carregadas diferentes. Enfileire uma verificação para validar a configuração e a conectividade do próprio worker.
+            description: As verificações acima foram executadas a partir deste processo web. A maior parte do trabalho de IA -- respostas do assistente, processamento de PDF, embeddings, categorização automática e detecção de estabelecimentos -- é executada, na verdade, em um processo worker do Sidekiq, que pode ter acesso de rede, DNS, regras de proxy ou até credenciais carregadas diferentes. Enfileire uma verificação para validar a configuração e a conectividade do próprio worker.
             verify_button: Verificar configuração do worker
             coverage_notice: Cada verificação valida exatamente um processo worker -- aquele que a retirar da fila. Com mais de uma réplica do worker, um resultado aprovado não confirma que todos os workers estão saudáveis; enfileire a verificação novamente para testar outro.
             empty:

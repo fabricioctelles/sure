@@ -20,8 +20,8 @@ pt-BR:
           title: Categorizador de Transações
           subtitle: A IA categoriza automaticamente suas transações com base nas suas categorias definidas
         merchant_detector:
-          title: Detector de Comerciantes
-          subtitle: A IA identifica e enriquece dados de transações com informações do comerciante
+          title: Detector de Estabelecimentos
+          subtitle: A IA identifica e enriquece dados de transações com informações do estabelecimento
         save: Salvar prompts
         save_confirm:
           title: Salvar prompts de IA personalizados?
@@ -150,7 +150,7 @@ pt-BR:
             é irreversível.
           title: Excluir conta?
         confirm_reset:
-          body: Tem certeza de que deseja resetar sua conta? Isso excluirá todas as suas contas, categorias, comerciantes, tags e outros dados. Esta ação não pode ser desfeita.
+          body: Tem certeza de que deseja resetar sua conta? Isso excluirá todas as suas contas, categorias, estabelecimentos, tags e outros dados. Esta ação não pode ser desfeita.
           title: Resetar conta?
         confirm_reset_with_sample_data:
           body: Tem certeza de que deseja redefinir sua conta e carregar dados de exemplo? Isso excluirá seus dados existentes e os substituirá por dados de demonstração para que você possa explorar o Sure com segurança.
@@ -166,7 +166,7 @@ pt-BR:
         delete_account_warning: Excluir sua conta removerá permanentemente todos
           os seus dados e não pode ser desfeito.
         reset_account: Resetar conta
-        reset_account_warning: Resetar sua conta excluirá todas as suas contas, categorias, comerciantes, tags e outros dados, mas manterá sua conta de usuário intacta.
+        reset_account_warning: Resetar sua conta excluirá todas as suas contas, categorias, estabelecimentos, tags e outros dados, mas manterá sua conta de usuário intacta.
         reset_account_with_sample_data: Reiniciar e pré-carregar
         reset_account_with_sample_data_warning: Exclua todos os seus dados existentes e, em seguida, carregue novos dados de amostra para que você possa explorar um ambiente pré-configurado.
         email: E-mail
@@ -230,7 +230,7 @@ pt-BR:
       imports_label: Importações
       exports_label: Exportações
       logout: Sair
-      merchants_label: Comerciantes
+      merchants_label: Estabelecimentos
       guides_label: Guias
       other_section_title: Mais
       preferences_label: Preferências

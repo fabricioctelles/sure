@@ -97,7 +97,7 @@ pt-BR:
     manage_payments: Gerenciar pagamentos
     view_full_bill: Ver conta a pagar completa
     match:
-      same_merchant: Mesmo comerciante
+      same_merchant: Mesmo estabelecimento
       name_matches: Nome corresponde
       exact_amount: Valor exato
       amount_off: Diferença de %{amount}

@@ -110,7 +110,7 @@ pt-BR:
         apply_configuration: Aplicar configuração
       merchant_import:
         button_label: Continuar
-        description: Envie um arquivo CSV com seus comerciantes. Mapearemos as colunas automaticamente para você.
+        description: Envie um arquivo CSV com seus estabelecimentos. Mapearemos as colunas automaticamente para você.
         instructions: Selecione continuar para processar seu CSV e avançar para a etapa de limpeza.
       actual_import:
         preconfigured_notice: Pré-configuramos sua importação do Actual Budget para você. Siga para a próxima etapa.
@@ -284,7 +284,7 @@ pt-BR:
           qif_import: QIF
           category_import: Categoria
           rule_import: Regra
-          merchant_import: Comerciante
+          merchant_import: Estabelecimento
           pdf_import: PDF
           document_import: Documento
           sure_import: Sure
@@ -302,7 +302,7 @@ pt-BR:
       tab_financial_tools: Ferramentas financeiras e arquivos
       tab_raw_data: Dados brutos
       import_ynab: Importar do YNAB
-      import_merchants: Importar comerciantes
+      import_merchants: Importar estabelecimentos
       import_actual: Importar do Actual Budget
       import_rules: Importar regras
       import_qif: Importar do Quicken (QIF)
@@ -332,7 +332,7 @@ pt-BR:
       categories: Categorias
       tags: Tags
       rules: Regras
-      merchants: Comerciantes
+      merchants: Estabelecimentos
       recurring_transactions: Transações recorrentes
       transfers: Transferências
       rejected_transfers: Transferências rejeitadas
@@ -434,7 +434,7 @@ pt-BR:
       qif_import: Importação QIF
       category_import: Importação de categorias
       rule_import: Importação de regras
-      merchant_import: Importação de comerciantes
+      merchant_import: Importação de estabelecimentos
       pdf_import: Importação de PDF
       document_import: Importação de documento
       sure_import: Importação do Sure

@@ -94,17 +94,17 @@ pt-BR:
         json_mode_json_object: JSON Object
         json_mode_help: O modo Estrito funciona melhor com modelos de raciocínio (qwen-thinking, deepseek-reasoner). O modo Nenhum funciona melhor com modelos padrão (llama, mistral, gpt-oss).
         budget_heading: Limites de tokens
-        budget_description: Aplica-se às chamadas compatíveis com OpenAI (chat, categorização automática, detecção de comerciantes e processamento de PDFs). Os valores padrão são conservadores, pensados para modelos locais com contexto pequeno. Aumente-os para modelos em nuvem com janelas de contexto maiores.
+        budget_description: Aplica-se às chamadas compatíveis com OpenAI (chat, categorização automática, detecção de estabelecimentos e processamento de PDFs). Os valores padrão são conservadores, pensados para modelos locais com contexto pequeno. Aumente-os para modelos em nuvem com janelas de contexto maiores.
         context_window_label: Janela de contexto (opcional)
         context_window_help: 'Total de tokens que o modelo aceita. Padrão: 2048 — aumente para 8192+ para a OpenAI em nuvem ou modelos locais com contexto grande.'
         max_response_tokens_label: Máximo de tokens na resposta (opcional)
         max_response_tokens_help: 'Tokens reservados para a resposta do modelo. Padrão: 512. Reduza para liberar espaço para um histórico mais longo.'
         max_items_per_call_label: Máximo de itens por lote (opcional)
-        max_items_per_call_help: 'Limite superior dos lotes de categorização automática / detecção de comerciantes. Padrão: 25. Lotes maiores são divididos automaticamente para caber na janela de contexto.'
+        max_items_per_call_help: 'Limite superior dos lotes de categorização automática / detecção de estabelecimentos. Padrão: 25. Lotes maiores são divididos automaticamente para caber na janela de contexto.'
         timeout_heading: Tempos limite
         timeout_description: Controla por quanto tempo as chamadas a modelos compatíveis com OpenAI podem durar antes que o Sure desista. Aumente esses valores se você roda um modelo local em hardware lento.
         openai_request_timeout_label: Tempo limite da requisição em segundos (opcional)
-        openai_request_timeout_help: 'Padrão: 60. Aplica-se a cada requisição HTTP compatível com OpenAI, incluindo categorização automática, detecção de comerciantes, chat, processamento de PDFs e chamadas ao vector store. OPENAI_REQUEST_TIMEOUT substitui este campo.'
+        openai_request_timeout_help: 'Padrão: 60. Aplica-se a cada requisição HTTP compatível com OpenAI, incluindo categorização automática, detecção de estabelecimentos, chat, processamento de PDFs e chamadas ao vector store. OPENAI_REQUEST_TIMEOUT substitui este campo.'
         ai_response_timeout_label: Tempo limite da resposta em segundos (opcional)
         ai_response_timeout_help: 'Padrão: 90. Aplica-se apenas ao watchdog do turno completo do chat, então dimensione-o como uma soma: (1 + ASSISTANT_MAX_TOOL_CALL_ITERATIONS) × tempo limite da requisição, mais o tempo de execução das ferramentas e de fila. AI_RESPONSE_TIMEOUT substitui este campo.'
       yahoo_finance_settings:
@@ -178,7 +178,7 @@ pt-BR:
           body: Isso removerá a URL, o token e o ID do agente salvos e passará a usar o assistente integrado. Você pode se reconectar depois informando novas credenciais.
       llm_provider_selector:
         title: Provedor de IA
-        description: Escolha qual LLM alimenta o chat de IA. As operações em lote (categorização de transações, detecção de comerciantes e processamento de PDFs) atualmente sempre usam a OpenAI.
+        description: Escolha qual LLM alimenta o chat de IA. As operações em lote (categorização de transações, detecção de estabelecimentos e processamento de PDFs) atualmente sempre usam a OpenAI.
         env_configured_message: Configurado com sucesso através da variável de ambiente LLM_PROVIDER.
         provider_label: Provedor de LLM ativo
         provider_openai: OpenAI
@@ -197,7 +197,7 @@ pt-BR:
         base_url_placeholder: https://api.anthropic.com (padrão)
         model_label: Modelo padrão (opcional)
         model_placeholder: claude-sonnet-4-6 (padrão)
-        model_help: Usado no chat e no processamento de PDFs. As operações em lote (categorização, detecção de comerciantes) usam o Haiku por padrão, para reduzir custos.
+        model_help: Usado no chat e no processamento de PDFs. As operações em lote (categorização, detecção de estabelecimentos) usam o Haiku por padrão, para reduzir custos.
       rentcast_settings:
         title: RentCast
         description: Insira sua chave de API da RentCast para consultar dados e estimativas de valor de imóveis nos EUA ao adicionar um imóvel. O plano gratuito é limitado a 50 requisições de API por mês, compartilhadas entre consultas de imóveis e atualizações diárias de avaliação. Em um plano pago, aumente o limite com a variável de ambiente RENTCAST_MAX_REQUESTS_PER_MONTH.

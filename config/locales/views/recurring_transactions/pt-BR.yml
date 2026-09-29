@@ -102,7 +102,7 @@ pt-BR:
       title: Encontre uma transação para começar
       income_title: Encontre um depósito para começar
       hint: Escolher uma apenas preenche o formulário; você ainda pode alterar qualquer coisa.
-      search_placeholder: Buscar por nome, notas ou comerciante
+      search_placeholder: Buscar por nome, notas ou estabelecimento
       back: Voltar ao formulário
       showing_recent: Mostrando as %{count} mais recentes. Busque para refinar.
       no_results: Nada corresponde a “%{query}”. Tente menos palavras ou volte e preencha o formulário você mesmo.
